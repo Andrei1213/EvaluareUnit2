@@ -1,0 +1,100 @@
+body {  background-color:white;}
+		h1.nume { color :#d1b3ff;
+				 border: 4.5px solid black;
+				 text-align: left;
+				 background-color: #ffcc80;}
+		h2.sectiuni { color: #0059b3;
+		              text-align: left;}
+		p { color :gray;
+		   text-align: right;}
+		
+		table {background-color: #99ffe6;
+				width: auto;
+                margin-right: auto;
+                margin-left: 0px;
+				background-color: white;}
+		table, tr,th, td ,ul {border: 1px solid #9966ff ;}
+        
+        h1.nume{font-family: Verdana;
+           font-style: bold;
+           font-size: 36px;}
+		   
+        p{font-family ; Arial;
+          font-size: 18px;}
+		  
+        img.profil{ 
+             width: 500px;
+             display :block;
+             padding: 10px;
+             margin-right:auto;
+             margin-left: left;
+             opacity: 0.95;}	
+        h2.sectiuni2 { color: #0059b3;
+		              text-align: left;
+					  }		
+        ul { display: table;
+		     border-style: none;
+             margin: left;
+			 }		
+	div.gri{ background-color: #e6f2ff;
+	          border: 2px solid #990000;
+			  padding: 5px;
+			 }
+		
+		img.profilslide{ 
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
+			 }
+			 
+/* .mySlides {display: none;} */
+
+img {vertical-align: middle;}
+
+ /*Slideshow container */
+ .slideshow-container {
+  display:flex;
+  max-width: 3000px;
+  position: relative;
+  margin: auto;
+}
+
+
+ /*The dots/bullets/indicators */ 
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbbbbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size*/ 
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
